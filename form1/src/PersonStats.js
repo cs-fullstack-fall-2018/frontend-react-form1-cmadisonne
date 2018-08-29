@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './PersonStats.css';
 
 class PersonStats extends Component {
     constructor(props){
@@ -47,7 +48,9 @@ class PersonStats extends Component {
 
                     <div>
                         <br/>
-                        <h2 id="message"></h2>
+                        <h2 id="message">
+
+                        </h2>
                     </div>
                 </form>
 
